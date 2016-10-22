@@ -90,7 +90,6 @@
     self.slider.contentSize = CGSizeMake(self.frame.size.width*(self.numberOfPages+2),self.frame.size.height);
     
     MSFilter *filter = [[self.dataSource slider:self slideAtIndex:self.numberOfPages-1] copy];
-    //(self, slideAtIndex:self.numberOfPages-1)
     [self.data addObject:filter];
     
     
