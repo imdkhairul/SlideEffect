@@ -28,16 +28,16 @@ self.data = [MSFilter generateFiltersWithoriginalImage:originalPicture withFilte
 Your ViewController must conform to the `MSSliderDataSource` protocol. It allows the slider to be populated with your own data.
 
 ```swift
-- (NSInteger) numberOfSlides:(MSSlider *)slider{
-
+- (NSInteger) numberOfSlides:(MSSlider *)slider
+{
 return self.data.count;
 }
-- (MSFilter *)slider:(MSSlider *)slider slideAtIndex:(NSInteger)index{
-
+- (MSFilter *)slider:(MSSlider *)slider slideAtIndex:(NSInteger)index
+{
 return [self.data objectAtIndex:index];
 }
-- (NSInteger) startAtIndex:(MSSlider *)slider{
-
+- (NSInteger) startAtIndex:(MSSlider *)slider
+{
 return 0;
 }
 ```
