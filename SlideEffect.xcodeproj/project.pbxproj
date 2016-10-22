@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		201B0EA51DBBEDC7007C12A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 201B0EA41DBBEDC7007C12A0 /* UIKit.framework */; };
-		201B0EA81DBBF215007C12A0 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 201B0EA61DBBF215007C12A0 /* LICENSE */; };
-		201B0EA91DBBF215007C12A0 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 201B0EA71DBBF215007C12A0 /* README.md */; };
 		205F9B7F1DBBD09E0067A54E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 205F9B7E1DBBD09E0067A54E /* main.m */; };
 		205F9B821DBBD09E0067A54E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 205F9B811DBBD09E0067A54E /* AppDelegate.m */; };
 		205F9B851DBBD09E0067A54E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 205F9B841DBBD09E0067A54E /* ViewController.m */; };
@@ -23,8 +21,6 @@
 
 /* Begin PBXFileReference section */
 		201B0EA41DBBEDC7007C12A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		201B0EA61DBBF215007C12A0 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		201B0EA71DBBF215007C12A0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		205F9B7A1DBBD09E0067A54E /* SlideEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		205F9B7E1DBBD09E0067A54E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		205F9B801DBBD09E0067A54E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -84,8 +80,6 @@
 		205F9B7C1DBBD09E0067A54E /* SlideEffect */ = {
 			isa = PBXGroup;
 			children = (
-				201B0EA61DBBF215007C12A0 /* LICENSE */,
-				201B0EA71DBBF215007C12A0 /* README.md */,
 				205F9B941DBBD1140067A54E /* Slider */,
 				205F9B951DBBD1140067A54E /* Filter */,
 				205F9B801DBBD09E0067A54E /* AppDelegate.h */,
@@ -190,7 +184,6 @@
 			files = (
 				205F9B8D1DBBD09E0067A54E /* LaunchScreen.storyboard in Resources */,
 				205F9B8A1DBBD09E0067A54E /* Assets.xcassets in Resources */,
-				201B0EA81DBBF215007C12A0 /* LICENSE in Resources */,
 				205F9B881DBBD09E0067A54E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,7 +198,6 @@
 				205F9B9D1DBBD1520067A54E /* MSSlider.m in Sources */,
 				205F9B851DBBD09E0067A54E /* ViewController.m in Sources */,
 				205F9B821DBBD09E0067A54E /* AppDelegate.m in Sources */,
-				201B0EA91DBBF215007C12A0 /* README.md in Sources */,
 				205F9B9E1DBBD1520067A54E /* MSSticker.m in Sources */,
 				205F9B7F1DBBD09E0067A54E /* main.m in Sources */,
 				205F9B981DBBD1280067A54E /* MSFilter.m in Sources */,
