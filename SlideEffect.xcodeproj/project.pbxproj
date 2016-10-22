@@ -13,6 +13,9 @@
 		205F9B881DBBD09E0067A54E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 205F9B861DBBD09E0067A54E /* Main.storyboard */; };
 		205F9B8A1DBBD09E0067A54E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 205F9B891DBBD09E0067A54E /* Assets.xcassets */; };
 		205F9B8D1DBBD09E0067A54E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 205F9B8B1DBBD09E0067A54E /* LaunchScreen.storyboard */; };
+		205F9B981DBBD1280067A54E /* MSFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 205F9B971DBBD1280067A54E /* MSFilter.m */; };
+		205F9B9D1DBBD1520067A54E /* MSSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 205F9B9A1DBBD1520067A54E /* MSSlider.m */; };
+		205F9B9E1DBBD1520067A54E /* MSSticker.m in Sources */ = {isa = PBXBuildFile; fileRef = 205F9B9C1DBBD1520067A54E /* MSSticker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,13 @@
 		205F9B891DBBD09E0067A54E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		205F9B8C1DBBD09E0067A54E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		205F9B8E1DBBD09E0067A54E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		205F9B961DBBD1280067A54E /* MSFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSFilter.h; sourceTree = "<group>"; };
+		205F9B971DBBD1280067A54E /* MSFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSFilter.m; sourceTree = "<group>"; };
+		205F9B991DBBD1520067A54E /* MSSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSlider.h; sourceTree = "<group>"; };
+		205F9B9A1DBBD1520067A54E /* MSSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSlider.m; sourceTree = "<group>"; };
+		205F9B9B1DBBD1520067A54E /* MSSliderDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSliderDataSource.h; sourceTree = "<group>"; };
+		205F9B9C1DBBD1520067A54E /* MSSticker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSticker.m; sourceTree = "<group>"; };
+		205F9B9F1DBBD1680067A54E /* MSSticker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSSticker.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,8 @@
 		205F9B7C1DBBD09E0067A54E /* SlideEffect */ = {
 			isa = PBXGroup;
 			children = (
+				205F9B941DBBD1140067A54E /* Slider */,
+				205F9B951DBBD1140067A54E /* Filter */,
 				205F9B801DBBD09E0067A54E /* AppDelegate.h */,
 				205F9B811DBBD09E0067A54E /* AppDelegate.m */,
 				205F9B831DBBD09E0067A54E /* ViewController.h */,
@@ -77,6 +89,27 @@
 				205F9B7E1DBBD09E0067A54E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		205F9B941DBBD1140067A54E /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				205F9B991DBBD1520067A54E /* MSSlider.h */,
+				205F9B9A1DBBD1520067A54E /* MSSlider.m */,
+				205F9B9B1DBBD1520067A54E /* MSSliderDataSource.h */,
+				205F9B9F1DBBD1680067A54E /* MSSticker.h */,
+				205F9B9C1DBBD1520067A54E /* MSSticker.m */,
+			);
+			path = Slider;
+			sourceTree = "<group>";
+		};
+		205F9B951DBBD1140067A54E /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				205F9B961DBBD1280067A54E /* MSFilter.h */,
+				205F9B971DBBD1280067A54E /* MSFilter.m */,
+			);
+			path = Filter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +183,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				205F9B9D1DBBD1520067A54E /* MSSlider.m in Sources */,
 				205F9B851DBBD09E0067A54E /* ViewController.m in Sources */,
 				205F9B821DBBD09E0067A54E /* AppDelegate.m in Sources */,
+				205F9B9E1DBBD1520067A54E /* MSSticker.m in Sources */,
 				205F9B7F1DBBD09E0067A54E /* main.m in Sources */,
+				205F9B981DBBD1280067A54E /* MSFilter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
