@@ -1,6 +1,6 @@
 # SlideEffect
 
-SlideEffect allows you to create easily a SnapChat like navigation between a picture and its filters (that you can automatically generate).This is the Objective C conversion of (https://github.com/pauljeannot/SnapSliderFilters).
+SlideEffect allows you to create easily a SnapChat like navigation between a picture and its filters (that you can automatically generate).
 
 #### Supported Device
 
